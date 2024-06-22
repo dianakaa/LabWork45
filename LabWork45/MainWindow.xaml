@@ -1,0 +1,20 @@
+﻿<Window x:Class="LabWork45.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWork45"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1000">
+    <Grid>
+        <Button x:Name="button" Content="Проверка" Width="100" Height="50" Click="Button_Click" Margin="14,16,686,518"/>
+        <TextBox x:Name="txtSQLCommand" Margin="106,190,762,509" />
+        <Button Content="Execute" Click="Button_Click" Margin="238,119,628,587" />
+        <Label x:Name="lblResult" Content="Result:" Margin="114,276,502,440" />
+        <!--<Button x:Name="button2" Content="Проверка2" Width="100" Height="50" Click="Button_Click2" Margin="134,18,566,516"/>
+        <Button x:Name="button3" Content="Проверка3" Width="100" Height="50" Click="Button_Click3" Margin="251,19,449,515"/>
+        <Button x:Name="button4" Content="Проверка4" Width="100" Height="50" Click="Button_Click4" Margin="373,22,327,512"/>
+        <DataGrid x:Name="resultDataGrid" Width="510" Height="200" Margin="15,122,275,262" SelectionChanged="resultDataGrid_SelectionChanged"/>
+        <DataGrid x:Name="resultDataGrid2" Width="510" Height="200" Margin="13,350,277,34" SelectionChanged="resultDataGrid_SelectionChanged2"/>-->
+    </Grid>
+</Window>

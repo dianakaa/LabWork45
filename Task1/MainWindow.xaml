@@ -1,0 +1,19 @@
+﻿<Window x:Class="Task1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="connectionLabel" Background="#FFB9C5E8"/>
+        <Label Content ="Введите текст SQL-команды:"/>
+        <TextBox x:Name="sqlCommandTextBox" Text="SELECT Price FROM Games WHERE Price>1000"/>        
+        <Button x:Name="complateButton" Content="Выполнить" Click="complateButton_Click"/>
+        <TextBlock x:Name="infoTextBlock" TextWrapping="Wrap"/>
+        <DataGrid x:Name="infoDataGrid" Background="#FFF6F8FF"/>
+        
+
+    </StackPanel>
+</Window>
